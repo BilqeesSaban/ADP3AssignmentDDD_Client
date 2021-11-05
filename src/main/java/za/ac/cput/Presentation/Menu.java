@@ -104,8 +104,9 @@ public class Menu extends javax.swing.JFrame {
     }
 
     //Manage patients
-    private void patientsMouseClicked(java.awt.event.MouseEvent evt) {
-
+    private void patientsMouseClicked(java.awt.event.MouseEvent evt)
+    {
+        new PatientGUI().setGUI();
     }
 
 
